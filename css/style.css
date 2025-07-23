@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: Source Sans Pro, sans-serif;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+span {
+    color: #2f73f0;
+}
+/* Estilos do cabeçalho*/
+.secao-header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+.header {
+    padding: 20px 0;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-header {
+    font-size: 1.6rem;
+}
+.link-header {
+    padding: 0 10px;
+}
+.logo-header, .link-header{
+    color: rgb(87, 86, 86);
+}
+/* Estilos do banner*/  
+.secao-banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content {
+    line-height: 2.6;
+    font-size: 1.6rem;
+    background-color: rgba(46, 139, 87, 0.8);
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+/* Estilos da seção bem-vindo*/
+h2 {
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: #4e4e4e;
+    margin: 20px;
+}
+.opaco {
+    color: #6e6e6e;
+    font-size: 1.2rem;
+}
+.secao-bem-vindo {
+    padding: 100px 0;
+    text-align: center;
+    line-height: 2.5;
+}
+/* Estilos da seção quartos*/
+.secao-quartos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card-quarto{
+    flex: 1 1 200px;
+} 
