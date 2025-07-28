@@ -4,3 +4,129 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body {
+    font-family: Source Sans Pro, sans-serif;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+span {
+    color: #2f73f0;
+}
+.link-header:hover {
+    color: #0a0a0a;
+}
+/* Estilos do cabeçalho*/
+.secao-header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+}
+.header {
+    padding: 20px 0;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-header {
+    font-size: 1.6rem;
+}
+.link-header {
+    padding: 0 10px;
+}
+.logo-header, .link-header{
+    color: rgb(87, 86, 86);
+}
+/* Estilos da seção banner*/
+.secao-banner {
+    height: 40vh;
+    width: 100%;
+    background-image: url(/assets/img-fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Estilos da seção quartos*/
+h2 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #383838;
+    padding: 20px 0;
+}
+h3 {
+    font-weight: 600;
+    color: #383838;
+}
+.opaco {
+    color: #6e6e6e;
+}
+.secao-quarto-de-solteiro, .secao-quarto-de-casal, .secao-quarto-de-familia {
+    padding: 50px 0;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.secao-quarto-de-solteiro p, .secao-quarto-de-casal p, .secao-quarto-de-familia p {
+    padding-bottom: 50px;
+}
+.secao-quartos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card-quarto{
+    flex: 1 1 30%;
+}
+.card-quarto img {
+    width: 300px;
+    height: 200px;
+}
+.informacoes-quartos h2 {
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+.informacoes-lista {
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+    line-height: normal;
+}
+.informacoes-lista li {
+    width: 200px;
+    height: 50px;
+    text-align: left;
+}
+/* Estilos da seção rodapé*/
+.secao-rodape, .secao-rodape a, .secao-rodape h3 {
+    background-color: #49997c;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.contato {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    border-bottom:#6e6e6e 1px solid;
+}
+.contato-card {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.contato-card img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.copyright {
+    padding-top: 20px;
+    text-align: center;
+}
